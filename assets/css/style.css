@@ -2,6 +2,11 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
+    background-image: url('../img/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
