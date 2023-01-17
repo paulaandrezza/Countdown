@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -36,10 +37,33 @@
                 </ul>
             </div>
             <div><p class="text">Inscreva-se para saber mais sobre o meu aniversário</p></div>
-            <button>Inscreva-se</button>
+            <button onclick="showDetails()">Inscreva-se</button>
         </div>
         <img src="./assets/img/ballon.svg" alt="">
     </div>
+
+
+    <!-- Modal -->
+
+    <div id='modal' class='modal'>
+        <div class='modal-content'>
+            <div class='modal-header'>
+                <span id="close" onclick="closeModal('modal')" >&times;</span>
+            </div>
+            <div class='modal-body'>
+                <div class="modal-title">INSCREVA-SE AGORA</div>
+                <div id="modal-register"></div>
+                <form id="myForm" action="">
+                    <input class="modal-form" type="text" placeholder="Nome completo">
+                    <input class="modal-form" type="email" placeholder="Email">
+                    <button type="submit" id="modal-button">Enviar</button>
+                </form> 
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/modal.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>

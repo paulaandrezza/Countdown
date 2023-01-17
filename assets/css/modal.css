@@ -1,0 +1,105 @@
+.modal {
+    background-color: #EE9DB6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    /* display: none; */
+}
+
+.modal-content {
+    margin: 0 auto;
+    background-color: #E5E5E5;
+    max-width: 400px;
+    margin-top: 5%;
+    box-shadow: 0 0 2px #fff;
+    border-radius: 0.5rem;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: right;
+    background-color: #EE9DB680;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+#close {
+    color: #FF6F9C;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 .5rem;
+}
+
+#close:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.modal-body {
+    height: 400px;
+    margin: auto;
+}
+
+#myForm {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modal-title {
+    font-size: 2rem;
+    color: #FF6F9C;
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.modal-form {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: #EE9DB680;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+    color: #fff;
+    text-align: center;
+}
+/* Firefox 19+ */
+::-moz-placeholder {
+    color: #fff;
+    text-align: center;
+}
+/* IE 10+ */
+:-ms-input-placeholder {
+    color: #fff;
+    text-align: center;
+}
+/* Firefox 18- */
+:-moz-placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+#modal-register {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0 0.5rem;
+    color: rgb(60, 16, 48)
+}
