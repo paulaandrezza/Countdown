@@ -93,6 +93,7 @@ img {
     body {
         max-width: 400px;
         font-size: 5px;
+        background-image: none;
     }
     .container {
         flex-direction: column;
