@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-    <img alt="Countdown" src="./assets/img/projeto.jpeg" width="75%">
+    <img alt="Countdown" src="./assets/img/desktop.jpeg" width="75%">
     <img alt="Countdown" src="./assets/img/mobile.jpeg" width="18.4%">
     <img alt="Countdown" src="./assets/img/modal.jpeg" width="70%">
     <img alt="Countdown" src="./assets/img/mobile-modal.jpeg" width="21.5%">
