@@ -4,7 +4,7 @@ const minute = document.getElementById('minute');
 const second = document.getElementById('second');
 
 var now = new Date();
-var birthday = new Date(2023, 02, 25, 00, 00, 00); // o mes considera de 0 a 11, logo o mes 3 que é o meu caso virou 2
+var birthday = new Date(2024, 02, 25, 00, 00, 00); // o mes considera de 0 a 11, logo o mes 3 que é o meu caso virou 2
 
 var x = setInterval(function() {
 
